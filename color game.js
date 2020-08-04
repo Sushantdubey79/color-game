@@ -13,12 +13,14 @@ easy.addEventListener("click", function(){
 	pickColour();
 	assignColor();
 	changeRgb();
+	back.style.backgroundColor = "steelblue";
 })
 hard.addEventListener("click", function(){
 	diff = 6;
 	pickColour();
 	assignColor();
 	changeRgb();
+	back.style.backgroundColor = "steelblue";
 })
 pickColour();
 assignColor();
